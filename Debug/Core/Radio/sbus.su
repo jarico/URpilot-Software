@@ -1,0 +1,5 @@
+../Core/GP/gp_radio.h:61:1:configRadio	4	static
+../Core/Radio/sbus.c:124:6:iniciarSBUS	16	static
+../Core/Radio/sbus.c:147:6:procesarByteSBUS	40	static
+../Core/Radio/sbus.c:185:6:decodificarTramaSBUS	32	static
+../Core/Radio/sbus.c:258:6:leerSBUS	56	static

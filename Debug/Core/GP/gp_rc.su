@@ -1,0 +1,4 @@
+../Core/GP/gp_rc.h:105:1:configRefRC	4	static
+../Core/GP/gp_rc.c:100:6:fnResetGP_configCanalRC	32	static
+../Core/GP/gp_rc.c:124:6:fnResetGP_configRefRC	16	static
+../Core/GP/gp_rc.c:152:6:fnResetGP_configSecuenciaRC	24	static

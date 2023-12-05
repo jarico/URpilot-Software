@@ -1,0 +1,5 @@
+gp_radio.h:61:1:configRadio	1
+ibus.c:83:6:iniciarIBUS	2
+ibus.c:106:6:procesarByteIBUS	8
+ibus.c:144:6:decodificarTramaIBUS	7
+ibus.c:178:6:leerIBUS	3

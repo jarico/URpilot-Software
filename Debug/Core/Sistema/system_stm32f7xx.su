@@ -1,0 +1,10 @@
+../Drivers/CMSIS/Include/core_cm7.h:2147:34:__NVIC_SystemReset	4	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm7.h:2229:22:SCB_EnableICache	4	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm7.h:2281:22:SCB_EnableDCache	24	static,ignoring_inline_asm
+../Core/Sistema/system_stm32f7xx.c:112:6:iniciarITCMram	24	static
+../Core/Sistema/system_stm32f7xx.c:149:6:iniciarSRAM2	8	static
+../Core/Sistema/system_stm32f7xx.c:167:6:iniciarDTCMram	16	static
+../Core/Sistema/system_stm32f7xx.c:187:6:SystemInit	16	static
+../Core/Sistema/system_stm32f7xx.c:253:6:resetearSiOverclock	24	static,ignoring_inline_asm
+../Core/Sistema/system_stm32f7xx.c:276:6:iniciarSistemaOverclock	24	static
+../Core/Sistema/system_stm32f7xx.c:306:6:configurarRelojSistema	240	static

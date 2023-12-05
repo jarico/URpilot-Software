@@ -1,0 +1,10 @@
+core_cm7.h:2147:34:__NVIC_SystemReset	1
+core_cm7.h:2229:22:SCB_EnableICache	1
+core_cm7.h:2281:22:SCB_EnableDCache	3
+system_stm32f7xx.c:112:6:iniciarITCMram	1
+system_stm32f7xx.c:149:6:iniciarSRAM2	1
+system_stm32f7xx.c:167:6:iniciarDTCMram	1
+system_stm32f7xx.c:187:6:SystemInit	3
+system_stm32f7xx.c:253:6:resetearSiOverclock	2
+system_stm32f7xx.c:276:6:iniciarSistemaOverclock	3
+system_stm32f7xx.c:306:6:configurarRelojSistema	6

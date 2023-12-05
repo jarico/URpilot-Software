@@ -1,0 +1,12 @@
+gp_sd.h:63:1:configSD	1
+sd.c:70:7:punteroSD	1
+sd.c:82:6:iniciarPinDeteccionSD	2
+sd.c:95:6:iniciarSD	4
+sd.c:130:6:tarjetaSDinsertada	1
+sd.c:152:6:tarjetaSDiniciada	1
+sd.c:164:6:tarjetaSDfuncional	1
+sd.c:176:22:leerMetadatosSD	1
+sd.c:188:6:sondearSD	3
+sd.c:203:6:leerBloqueSD	1
+sd.c:215:21:iniciarEscrituraBloquesSD	1
+sd.c:227:21:escribirBloqueSD	1

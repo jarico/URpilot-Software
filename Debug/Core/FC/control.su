@@ -1,0 +1,9 @@
+../Core/GP/gp_fc.h:60:1:configFC	4	static
+../Core/FC/control.c:75:6:iniciarControladores	16	static
+../Core/FC/control.c:101:20:actualizarControlVelAngular	40	static
+../Core/FC/control.c:132:6:actualizarControlActitud	16	static
+../Core/FC/control.c:162:7:uRollPID	4	static
+../Core/FC/control.c:174:7:uPitchPID	4	static
+../Core/FC/control.c:186:7:uYawPID	4	static
+../Core/FC/control.c:198:7:uAltPID	4	static
+../Core/FC/control.c:210:6:uTotalPID	16	static

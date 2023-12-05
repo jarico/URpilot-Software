@@ -1,0 +1,13 @@
+matematicas.c:67:17:limitarUint16	3
+matematicas.c:84:16:limitarInt32	3
+matematicas.c:101:14:limitarFloat	3
+matematicas.c:118:14:moduloVector2	1
+matematicas.c:134:14:moduloVector3	1
+matematicas.c:150:13:productoCruzado3F	1
+matematicas.c:164:14:envolverInt360	2
+matematicas.c:181:14:envolverFloat360	2
+matematicas.c:198:13:esPotenciaDeDos	3
+matematicas.c:210:14:invSqrt	1
+matematicas.c:234:13:normalizar3Array	1
+matematicas.c:251:13:normalizar4Array	1
+matematicas.c:269:10:generarNumeroAleatorioUint16	1

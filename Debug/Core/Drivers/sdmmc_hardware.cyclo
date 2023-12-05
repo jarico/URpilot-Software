@@ -1,0 +1,6 @@
+gp_sdmmc.h:66:1:configSDMMC	1
+sdmmc_hardware.c:143:6:asignarHALsdmmc	3
+sdmmc_hardware.c:198:6:comprobarConfigHardwareSDMMC	10
+sdmmc_hardware.c:238:6:comprobarPinSDMMC	7
+sdmmc_hardware.c:256:6:comprobarStreamDMAsdmmc	3
+sdmmc_hardware.c:275:10:canalStreamDMAsdmmc	3

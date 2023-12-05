@@ -1,0 +1,5 @@
+usb.c:71:8:punteroUSB	1
+usb.c:83:6:iniciarUSB	2
+usb.c:109:6:usbAbierto	1
+usb.c:121:6:usbConfigurado	1
+usb.c:133:6:usbConectado	1

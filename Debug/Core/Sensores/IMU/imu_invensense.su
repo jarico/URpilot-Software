@@ -1,0 +1,11 @@
+../Core/GP/gp_imu.h:70:1:configIMU	16	static
+../Core/Sensores/IMU/imu_invensense.c:242:6:iniciarIMUinvensense	32	static
+../Core/Sensores/IMU/imu_invensense.c:277:6:iniciarBusIMUinvensense	16	static
+../Core/Sensores/IMU/imu_invensense.c:293:6:chequearIdIMUinvensense	24	static
+../Core/Sensores/IMU/imu_invensense.c:335:6:configurarHardwareIMUinvensense	32	static
+../Core/Sensores/IMU/imu_invensense.c:413:6:configurarIMUinvensense	32	static
+../Core/Sensores/IMU/imu_invensense.c:499:20:leerAdcIMUinvensense	32	static
+../Core/Sensores/IMU/imu_invensense.c:524:6:leerIMUinvensense	56	static
+../Core/Sensores/IMU/imu_invensense.c:558:20:actualizarIMUinvensense	72	static
+../Core/Sensores/IMU/imu_invensense.c:599:20:datoDisponibleIMUinvensense	24	static
+../Core/Sensores/IMU/imu_invensense.c:616:6:calcularIMUinvensense	56	static

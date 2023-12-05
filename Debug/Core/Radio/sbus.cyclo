@@ -1,0 +1,5 @@
+gp_radio.h:61:1:configRadio	1
+sbus.c:124:6:iniciarSBUS	2
+sbus.c:147:6:procesarByteSBUS	8
+sbus.c:185:6:decodificarTramaSBUS	24
+sbus.c:258:6:leerSBUS	3

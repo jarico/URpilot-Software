@@ -1,0 +1,16 @@
+../Core/GP/gp_ahrs.h:78:1:configAHRS	4	static
+../Core/AHRS/ahrs.c:83:6:iniciarAHRS	8	static
+../Core/AHRS/ahrs.c:115:6:ajustarFiltroAcelAngAHRS	32	static
+../Core/AHRS/ahrs.c:131:6:actualizarActitudAHRS	72	static
+../Core/AHRS/ahrs.c:173:6:actualizarActitudYawAHRS	64	static
+../Core/AHRS/ahrs.c:213:6:actualizarAcelActitudAHRS	40	static
+../Core/AHRS/ahrs.c:239:6:calcularVelAngularBiasAHRS	16	static
+../Core/AHRS/ahrs.c:257:6:calcularEulerAHRS	24	static
+../Core/AHRS/ahrs.c:281:6:actualizarPosicionAHRS	24	static
+../Core/AHRS/ahrs.c:300:7:calcularAltitudBaroAHRS	32	static
+../Core/AHRS/ahrs.c:315:6:actitudAHRS	16	static
+../Core/AHRS/ahrs.c:329:6:velAngularAHRS	16	static
+../Core/AHRS/ahrs.c:343:6:acelAngularAHRS	16	static
+../Core/AHRS/ahrs.c:357:6:posicionAHRS	16	static
+../Core/AHRS/ahrs.c:371:6:velLinealAHRS	16	static
+../Core/AHRS/ahrs.c:385:6:acelLinealAHRS	16	static

@@ -1,0 +1,11 @@
+../Core/GP/gp.h:153:24:tamanioGP	16	static
+../Core/GP/gp.h:154:24:numeroGP	16	static
+../Core/GP/gp.h:155:23:versionGP	16	static
+../Core/GP/config_flash.c:104:6:iniciarConfigFlash	8	static
+../Core/GP/config_flash.c:126:6:cargarConfigFlash	24	static
+../Core/GP/config_flash.c:152:6:resetearConfigFlash	8	static
+../Core/GP/config_flash.c:165:6:versionValidaConfigFlash	16	static
+../Core/GP/config_flash.c:183:6:escribirConfigEnFlash	16	static
+../Core/GP/config_flash.c:207:6:escribirAjustesEnFlash	64	static
+../Core/GP/config_flash.c:263:6:estructuraFlashConfigValida	32	static
+../Core/GP/config_flash.c:311:25:encontrarRegFlashConfig	24	static

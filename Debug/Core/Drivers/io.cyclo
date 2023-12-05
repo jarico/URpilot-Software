@@ -1,0 +1,5 @@
+io.c:73:6:configurarIO	3
+io.c:103:6:habilitarRelojIO	8
+io.c:150:6:escribirIO	2
+io.c:165:6:leerIO	2
+io.c:180:6:invertirIO	2

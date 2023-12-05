@@ -1,0 +1,9 @@
+calibrador_imu.c:115:6:iniciarCalAcel	3
+calibrador_imu.c:145:6:iniciarCalGir	3
+calibrador_imu.c:172:6:terminarCalAcel	2
+calibrador_imu.c:193:6:terminarCalGir	2
+calibrador_imu.c:214:6:actualizarCalAcel	11
+calibrador_imu.c:288:6:calcularParametrosCalAcel	10
+calibrador_imu.c:345:6:chequearParametrosCalAcel	10
+calibrador_imu.c:368:6:actualizarCalGir	9
+calibrador_imu.c:465:6:chequearParametrosCalGir	3

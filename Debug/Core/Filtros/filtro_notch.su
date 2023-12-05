@@ -1,0 +1,10 @@
+../Core/Filtros/filtro_notch.c:67:6:ajustarFiltroNotch	40	static
+../Core/Filtros/filtro_notch.c:90:6:actualizarFrecFiltroNotch	16	static
+../Core/Filtros/filtro_notch.c:102:6:calcularAQfiltroNotch	48	static
+../Core/Filtros/filtro_notch.c:120:6:ajustarFiltroNotchConAQ	40	static
+../Core/Filtros/filtro_notch.c:144:6:resetearFiltroNotch	16	static
+../Core/Filtros/filtro_notch.c:160:7:actualizarFiltroNotch	16	static
+../Core/Filtros/filtro_notch.c:182:6:ajustarFiltroNotchArmonicos	48	static
+../Core/Filtros/filtro_notch.c:227:6:resetearFiltroNotchArmonicos	24	static
+../Core/Filtros/filtro_notch.c:240:6:actualizarFrecFiltroNotchArmonicos	32	static
+../Core/Filtros/filtro_notch.c:268:7:actualizarFiltroNotchArmonicos	24	static

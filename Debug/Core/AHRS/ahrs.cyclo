@@ -1,0 +1,16 @@
+gp_ahrs.h:78:1:configAHRS	1
+ahrs.c:83:6:iniciarAHRS	3
+ahrs.c:115:6:ajustarFiltroAcelAngAHRS	2
+ahrs.c:131:6:actualizarActitudAHRS	4
+ahrs.c:173:6:actualizarActitudYawAHRS	2
+ahrs.c:213:6:actualizarAcelActitudAHRS	1
+ahrs.c:239:6:calcularVelAngularBiasAHRS	1
+ahrs.c:257:6:calcularEulerAHRS	2
+ahrs.c:281:6:actualizarPosicionAHRS	4
+ahrs.c:300:7:calcularAltitudBaroAHRS	1
+ahrs.c:315:6:actitudAHRS	1
+ahrs.c:329:6:velAngularAHRS	1
+ahrs.c:343:6:acelAngularAHRS	1
+ahrs.c:357:6:posicionAHRS	1
+ahrs.c:371:6:velLinealAHRS	1
+ahrs.c:385:6:acelLinealAHRS	1

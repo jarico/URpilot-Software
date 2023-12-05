@@ -1,0 +1,5 @@
+../Core/GP/gp_radio.h:61:1:configRadio	4	static
+../Core/Radio/ibus.c:83:6:iniciarIBUS	16	static
+../Core/Radio/ibus.c:106:6:procesarByteIBUS	40	static
+../Core/Radio/ibus.c:144:6:decodificarTramaIBUS	24	static
+../Core/Radio/ibus.c:178:6:leerIBUS	48	static

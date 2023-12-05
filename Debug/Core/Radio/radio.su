@@ -1,0 +1,14 @@
+../Core/GP/gp_radio.h:61:1:configRadio	4	static
+../Core/Radio/radio.c:79:6:iniciarRadio	16	static
+../Core/Radio/radio.c:132:6:iniciarDriverRadio	8	static
+../Core/Radio/radio.c:156:6:leerRadio	16	static
+../Core/Radio/radio.c:195:6:anadirRecepcionRadio	24	static
+../Core/Radio/radio.c:211:6:nuevaRecepcionRadio	16	static
+../Core/Radio/radio.c:227:6:actualizarFailsafeRadio	24	static
+../Core/Radio/radio.c:260:6:radioOperativa	4	static
+../Core/Radio/radio.c:272:6:radioEnFailsafe	4	static
+../Core/Radio/radio.c:284:6:activarFailsafeRadio	4	static
+../Core/Radio/radio.c:296:6:desactivarFailsafeRadio	4	static
+../Core/Radio/radio.c:308:6:nuevaEntradaRadioValida	4	static
+../Core/Radio/radio.c:320:10:canalRadio	16	static
+../Core/Radio/radio.c:335:6:canalesRadio	16	static

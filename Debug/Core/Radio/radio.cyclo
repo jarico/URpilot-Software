@@ -1,0 +1,14 @@
+gp_radio.h:61:1:configRadio	1
+radio.c:79:6:iniciarRadio	7
+radio.c:132:6:iniciarDriverRadio	2
+radio.c:156:6:leerRadio	6
+radio.c:195:6:anadirRecepcionRadio	1
+radio.c:211:6:nuevaRecepcionRadio	2
+radio.c:227:6:actualizarFailsafeRadio	8
+radio.c:260:6:radioOperativa	3
+radio.c:272:6:radioEnFailsafe	1
+radio.c:284:6:activarFailsafeRadio	1
+radio.c:296:6:desactivarFailsafeRadio	1
+radio.c:308:6:nuevaEntradaRadioValida	3
+radio.c:320:10:canalRadio	2
+radio.c:335:6:canalesRadio	1

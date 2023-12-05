@@ -1,0 +1,7 @@
+gp_radio.h:61:1:configRadio	1
+ppm.c:102:6:iniciarPPM	4
+ppm.c:137:6:overflowCallbackPPM	2
+ppm.c:153:6:edgeCallbackPPM	19
+ppm.c:229:10:leerCanalPPM	1
+ppm.c:241:6:leerPPM	1
+ppm.c:253:6:resetearPPM	1

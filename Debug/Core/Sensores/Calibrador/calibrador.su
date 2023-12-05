@@ -1,0 +1,2 @@
+../Core/Sensores/Calibrador/calibrador.c:71:6:iniciarCalibrador	24	static
+../Core/Sensores/Calibrador/calibrador.c:92:17:buscarLadoCalibrador	64	static

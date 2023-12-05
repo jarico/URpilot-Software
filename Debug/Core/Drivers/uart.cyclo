@@ -1,0 +1,7 @@
+uart.c:68:9:punteroUART	1
+uart.c:80:6:iniciarUART	3
+uart.c:118:6:uartIniciada	1
+uart.c:130:6:ajustarBaudRateUART	1
+uart.c:151:6:errorCallbackUART	1
+uart.c:163:10:contadorErrorUART	1
+uart.c:175:6:resetearContadorErrorUART	1

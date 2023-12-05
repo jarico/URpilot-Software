@@ -1,0 +1,3 @@
+../Core/GP/gp_i2c.h:58:1:configI2C	16	static
+../Core/Drivers/i2c_hardware.c:125:6:asignarHALi2c	24	static
+../Core/Drivers/i2c_hardware.c:148:6:pinI2C	24	static

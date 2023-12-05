@@ -1,0 +1,9 @@
+gp_fc.h:60:1:configFC	1
+control.c:75:6:iniciarControladores	2
+control.c:101:20:actualizarControlVelAngular	2
+control.c:132:6:actualizarControlActitud	2
+control.c:162:7:uRollPID	1
+control.c:174:7:uPitchPID	1
+control.c:186:7:uYawPID	1
+control.c:198:7:uAltPID	1
+control.c:210:6:uTotalPID	1

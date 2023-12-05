@@ -1,0 +1,9 @@
+../Core/Drivers/atomico.h:78:20:restaurarBasepriMem	24	static,ignoring_inline_asm
+../Core/Drivers/atomico.h:90:23:ajustarBasepriMax	24	static,ignoring_inline_asm
+../Core/Drivers/tiempo.c:68:6:iniciarContadorCiclos	8	static
+../Core/Drivers/tiempo.c:81:10:microsISR	40	static,ignoring_inline_asm
+../Core/Drivers/tiempo.c:109:10:micros	24	static,ignoring_inline_asm
+../Core/Drivers/tiempo.c:132:10:millis	4	static
+../Core/Drivers/tiempo.c:144:6:delayMicroseconds	24	static
+../Core/Drivers/tiempo.c:157:6:delay	16	static
+../Core/Drivers/tiempo.c:170:6:HAL_Delay	16	static

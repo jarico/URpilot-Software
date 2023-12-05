@@ -1,0 +1,10 @@
+baro_bosch.c:103:6:iniciarBaroBosch	2
+baro_bosch.c:155:6:iniciarBusBaroBosch	2
+baro_bosch.c:171:6:leerPromBaroBosch	3
+baro_bosch.c:202:6:leerWordPromBaroBosch	2
+baro_bosch.c:221:6:leerIntWordPromBaroBosch	2
+baro_bosch.c:240:6:leer16bitsAdcBaroBosch	2
+baro_bosch.c:258:6:leer24bitsAdcBaroBosch	3
+baro_bosch.c:276:6:leerBaroBosch	6
+baro_bosch.c:311:6:actualizarBaroBosch	10
+baro_bosch.c:365:6:calcularBaroBosch	2

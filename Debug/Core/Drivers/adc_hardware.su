@@ -1,0 +1,7 @@
+../Core/GP/gp_adc.h:57:1:configADC	16	static
+../Core/Drivers/adc_hardware.c:251:6:asignarHALadc	40	static
+../Core/Drivers/adc_hardware.c:298:6:verificarPinADC	24	static
+../Core/Drivers/adc_hardware.c:315:9:canalADC	24	static
+../Core/Drivers/adc_hardware.c:334:6:comprobarStreamDMAadc	24	static
+../Core/Drivers/adc_hardware.c:353:10:canalStreamDMAadc	24	static
+../Core/Drivers/adc_hardware.c:372:9:posicionPuertoADC	24	static

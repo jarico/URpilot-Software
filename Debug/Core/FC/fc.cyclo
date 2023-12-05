@@ -1,0 +1,5 @@
+gp_fc.h:60:1:configFC	1
+fc.c:68:6:iniciarFC	1
+fc.c:86:20:actualizarLazoVelAngularFC	1
+fc.c:115:6:actualizarLazoActitudFC	3
+fc.c:137:6:actualizarLazoPosicionFC	1

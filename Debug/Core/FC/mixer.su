@@ -1,0 +1,10 @@
+../Core/GP/gp_mixer.h:58:1:configMixer	4	static
+../Core/FC/mixer.c:207:6:iniciarMixer	24	static
+../Core/FC/mixer.c:231:20:actualizarMixer	8	static
+../Core/FC/mixer.c:271:20:calcularTablaMixer	32	static
+../Core/FC/mixer.c:289:21:escalarMixer	32	static
+../Core/FC/mixer.c:306:9:numMotores	4	static
+../Core/FC/mixer.c:318:6:pararMotores	8	static
+../Core/FC/mixer.c:330:6:apagarMotoresMixer	4	static
+../Core/FC/mixer.c:343:6:encenderMotoresMixer	4	static
+../Core/FC/mixer.c:356:6:motoresEncendidosMixer	4	static

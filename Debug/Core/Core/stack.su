@@ -1,0 +1,3 @@
+../Core/Core/stack.c:71:6:chequearStack	40	static
+../Core/Core/stack.c:96:10:tamUsadoStack	4	static
+../Core/Core/stack.c:108:10:tamanioStack	4	static

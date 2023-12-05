@@ -1,0 +1,10 @@
+gp.h:153:24:tamanioGP	1
+gp.h:154:24:numeroGP	1
+gp.h:155:23:versionGP	1
+gp.c:65:21:encontrarGP	3
+gp.c:81:6:cargarGP	2
+gp.c:101:10:guardarGP	1
+gp.c:115:6:resetearTodosGP	2
+gp.c:129:6:resetearGP	1
+gp.c:141:6:resetearInstanciaGP	4
+gp.c:159:10:offsetGP	1
