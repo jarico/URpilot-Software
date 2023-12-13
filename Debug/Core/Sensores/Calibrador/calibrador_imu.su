@@ -1,9 +1,0 @@
-../Core/Sensores/Calibrador/calibrador_imu.c:115:6:iniciarCalAcel	24	static
-../Core/Sensores/Calibrador/calibrador_imu.c:145:6:iniciarCalGir	24	static
-../Core/Sensores/Calibrador/calibrador_imu.c:172:6:terminarCalAcel	16	static
-../Core/Sensores/Calibrador/calibrador_imu.c:193:6:terminarCalGir	16	static
-../Core/Sensores/Calibrador/calibrador_imu.c:214:6:actualizarCalAcel	40	static
-../Core/Sensores/Calibrador/calibrador_imu.c:288:6:calcularParametrosCalAcel	1272	static
-../Core/Sensores/Calibrador/calibrador_imu.c:345:6:chequearParametrosCalAcel	16	static
-../Core/Sensores/Calibrador/calibrador_imu.c:368:6:actualizarCalGir	64	static
-../Core/Sensores/Calibrador/calibrador_imu.c:465:6:chequearParametrosCalGir	32	static

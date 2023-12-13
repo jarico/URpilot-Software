@@ -1,5 +1,0 @@
-../Core/Drivers/timer_hardware.c:366:6:asignarPinTimer	40	static
-../Core/Drivers/timer_hardware.c:386:6:asignarHALtimer	24	static
-../Core/Drivers/timer_hardware.c:413:6:pinCanalTimer	32	static
-../Core/Drivers/timer_hardware.c:435:6:dmaTimer	24	static
-../Core/Drivers/timer_hardware.c:457:6:dmaTimerUP	24	static

@@ -1,7 +1,0 @@
-gp_adc.h:57:1:configADC	1
-adc_hardware.c:251:6:asignarHALadc	6
-adc_hardware.c:298:6:verificarPinADC	3
-adc_hardware.c:315:9:canalADC	3
-adc_hardware.c:334:6:comprobarStreamDMAadc	3
-adc_hardware.c:353:10:canalStreamDMAadc	3
-adc_hardware.c:372:9:posicionPuertoADC	3

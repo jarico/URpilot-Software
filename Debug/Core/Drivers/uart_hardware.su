@@ -1,6 +1,0 @@
-../Core/GP/gp_uart.h:59:1:configUART	16	static
-../Core/Drivers/uart_hardware.c:286:6:asignarHALuart	24	static
-../Core/Drivers/uart_hardware.c:317:6:comprobarConfigHardwareUART	16	static
-../Core/Drivers/uart_hardware.c:345:6:comprobarPinUART	24	static
-../Core/Drivers/uart_hardware.c:362:6:comprobarStreamDMAuart	24	static
-../Core/Drivers/uart_hardware.c:379:6:pinUART	24	static

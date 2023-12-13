@@ -1,3 +1,0 @@
-gp_i2c.h:58:1:configI2C	1
-i2c_hardware.c:125:6:asignarHALi2c	3
-i2c_hardware.c:148:6:pinI2C	4

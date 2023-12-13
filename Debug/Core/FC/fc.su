@@ -1,5 +1,0 @@
-../Core/GP/gp_fc.h:60:1:configFC	4	static
-../Core/FC/fc.c:68:6:iniciarFC	8	static
-../Core/FC/fc.c:86:20:actualizarLazoVelAngularFC	16	static
-../Core/FC/fc.c:115:6:actualizarLazoActitudFC	16	static
-../Core/FC/fc.c:137:6:actualizarLazoPosicionFC	16	static

@@ -1,8 +1,0 @@
-gp_ahrs.h:78:1:configAHRS	1
-madgwick.c:86:6:iniciarMadgwick	2
-madgwick.c:113:6:actualizarMadgwick	3
-madgwick.c:162:6:actualizarConMagMadgwick	4
-madgwick.c:231:6:actualizarSinMagMadgwick	4
-madgwick.c:282:6:corregirCuaternionMadgwick	3
-madgwick.c:330:6:actualizarCuaternionDerivadaMadgwick	1
-madgwick.c:346:6:actualizarCuaternionMadgwick	1

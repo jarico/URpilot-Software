@@ -1,9 +1,0 @@
-adc_hal.c:113:6:iniciarDriverADC	20
-adc_hal.c:212:6:habilitarRelojADC	5
-adc_hal.c:239:6:configurarDriverADC	2
-adc_hal.c:268:6:iniciarInyectadoADCinterno	3
-adc_hal.c:324:6:adcIternoOcupado	3
-adc_hal.c:343:6:iniciarConversionADCinterno	1
-adc_hal.c:358:10:leerVrefADCinterno	1
-adc_hal.c:371:10:leerTempADCinterno	1
-adc_hal.c:384:6:leerADCinterno	4

@@ -1,3 +1,0 @@
-../Core/Filtros/filtro_media_movil.c:61:6:ajustarFiltroMediaMovil	16	static
-../Core/Filtros/filtro_media_movil.c:76:6:resetearFiltroMediaMovil	24	static
-../Core/Filtros/filtro_media_movil.c:92:7:actualizarFiltroMediaMovil	24	static

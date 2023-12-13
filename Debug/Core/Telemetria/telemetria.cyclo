@@ -1,9 +1,0 @@
-telemetria.c:77:7:bytesToFloat	1
-telemetria.c:89:7:bytesToInt	1
-telemetria.c:107:6:actualizarTelemetria	2
-telemetria.c:200:6:iniciarBufferTelemetria	1
-telemetria.c:212:6:terminarBufferTelemetria	1
-telemetria.c:227:6:insertarDatoTelemetria	2
-telemetria.c:245:6:insertarBufferTelemetria	2
-telemetria.c:258:10:obtenerNumBytesBufferTelemetria	1
-telemetria.c:270:10:obtenerNumDatosBufferTelemetria	2

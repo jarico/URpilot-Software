@@ -1,9 +1,0 @@
-../Core/GP/gp_sdmmc.h:66:1:configSDMMC	4	static
-../Core/Drivers/sdmmc.c:68:10:punteroSDMMC	4	static
-../Core/Drivers/sdmmc.c:80:6:iniciarSDMMC	8	static
-../Core/Drivers/sdmmc.c:112:6:sdmmcIniciado	4	static
-../Core/Drivers/sdmmc.c:124:6:errorCallbackSDMMC	4	static
-../Core/Drivers/sdmmc.c:136:10:contadorErrorSDMMC	4	static
-../Core/Drivers/sdmmc.c:148:6:resetearContadorErrorSDMMC	4	static
-../Core/Drivers/sdmmc.c:160:10:tipoSDMMC	4	static
-../Core/Drivers/sdmmc.c:171:10:infoSDMMC	16	static

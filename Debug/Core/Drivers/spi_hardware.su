@@ -1,3 +1,0 @@
-../Core/GP/gp_spi.h:53:1:configSPI	16	static
-../Core/Drivers/spi_hardware.c:184:6:asignarHALspi	24	static
-../Core/Drivers/spi_hardware.c:210:6:pinSPI	24	static

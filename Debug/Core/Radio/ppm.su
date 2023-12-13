@@ -1,7 +1,0 @@
-../Core/GP/gp_radio.h:61:1:configRadio	4	static
-../Core/Radio/ppm.c:102:6:iniciarPPM	24	static
-../Core/Radio/ppm.c:137:6:overflowCallbackPPM	16	static
-../Core/Radio/ppm.c:153:6:edgeCallbackPPM	32	static
-../Core/Radio/ppm.c:229:10:leerCanalPPM	16	static
-../Core/Radio/ppm.c:241:6:leerPPM	16	static
-../Core/Radio/ppm.c:253:6:resetearPPM	4	static

@@ -1,9 +1,0 @@
-atomico.h:78:20:restaurarBasepriMem	1
-atomico.h:90:23:ajustarBasepriMax	1
-tiempo.c:68:6:iniciarContadorCiclos	1
-tiempo.c:81:10:microsISR	3
-tiempo.c:109:10:micros	5
-tiempo.c:132:10:millis	1
-tiempo.c:144:6:delayMicroseconds	2
-tiempo.c:157:6:delay	2
-tiempo.c:170:6:HAL_Delay	1

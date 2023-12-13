@@ -1,8 +1,0 @@
-../Core/GP/gp_ahrs.h:78:1:configAHRS	4	static
-../Core/AHRS/madgwick.c:86:6:iniciarMadgwick	16	static
-../Core/AHRS/madgwick.c:113:6:actualizarMadgwick	80	static
-../Core/AHRS/madgwick.c:162:6:actualizarConMagMadgwick	184	static
-../Core/AHRS/madgwick.c:231:6:actualizarSinMagMadgwick	128	static
-../Core/AHRS/madgwick.c:282:6:corregirCuaternionMadgwick	56	static
-../Core/AHRS/madgwick.c:330:6:actualizarCuaternionDerivadaMadgwick	24	static
-../Core/AHRS/madgwick.c:346:6:actualizarCuaternionMadgwick	24	static

@@ -1,5 +1,0 @@
-timer_hardware.c:366:6:asignarPinTimer	4
-timer_hardware.c:386:6:asignarHALtimer	3
-timer_hardware.c:413:6:pinCanalTimer	3
-timer_hardware.c:435:6:dmaTimer	5
-timer_hardware.c:457:6:dmaTimerUP	3

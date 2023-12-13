@@ -1,7 +1,0 @@
-../Core/Blackbox/asyncfatfs/fat_standard.c:6:6:fat16_isEndOfChainMarker	16	static
-../Core/Blackbox/asyncfatfs/fat_standard.c:12:6:fat32_isEndOfChainMarker	16	static
-../Core/Blackbox/asyncfatfs/fat_standard.c:22:10:fat32_decodeClusterNumber	16	static
-../Core/Blackbox/asyncfatfs/fat_standard.c:28:6:fat_isFreeSpace	16	static
-../Core/Blackbox/asyncfatfs/fat_standard.c:33:6:fat_isDirectoryEntryTerminator	16	static
-../Core/Blackbox/asyncfatfs/fat_standard.c:38:6:fat_isDirectoryEntryEmpty	16	static
-../Core/Blackbox/asyncfatfs/fat_standard.c:48:6:fat_convertFilenameToFATStyle	32	static

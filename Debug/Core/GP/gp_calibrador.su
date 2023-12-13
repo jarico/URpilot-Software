@@ -1,2 +1,0 @@
-../Core/GP/gp_calibrador.c:63:6:fnResetGP_configCalIMU	16	static
-../Core/GP/gp_calibrador.c:167:6:fnResetGP_configCalMag	16	static

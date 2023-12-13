@@ -1,9 +1,0 @@
-../Core/Telemetria/telemetria.c:77:7:bytesToFloat	24	static
-../Core/Telemetria/telemetria.c:89:7:bytesToInt	24	static
-../Core/Telemetria/telemetria.c:107:6:actualizarTelemetria	152	static
-../Core/Telemetria/telemetria.c:200:6:iniciarBufferTelemetria	4	static
-../Core/Telemetria/telemetria.c:212:6:terminarBufferTelemetria	4	static
-../Core/Telemetria/telemetria.c:227:6:insertarDatoTelemetria	24	static
-../Core/Telemetria/telemetria.c:245:6:insertarBufferTelemetria	24	static
-../Core/Telemetria/telemetria.c:258:10:obtenerNumBytesBufferTelemetria	4	static
-../Core/Telemetria/telemetria.c:270:10:obtenerNumDatosBufferTelemetria	4	static

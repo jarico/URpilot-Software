@@ -1,7 +1,0 @@
-core_cm7.h:2147:34:__NVIC_SystemReset	1
-core_cm7.h:2491:22:SCB_CleanDCache_by_Addr	2
-reset.c:62:6:resetSistema	0
-reset.c:75:6:resetSistemaAlBootloader	0
-reset.c:91:6:chequearSolicitudBootLoader	2
-reset.c:124:6:rccCSR	1
-reset.c:136:6:resetSoftware	2

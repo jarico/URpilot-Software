@@ -1,5 +1,0 @@
-timer.c:69:8:punteroTim	1
-timer.c:81:13:punteroTimer	1
-timer.c:93:6:iniciarTimer	13
-timer.c:158:6:timerUsado	3
-timer.c:176:8:timerPorTag	4

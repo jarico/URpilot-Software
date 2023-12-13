@@ -1,8 +1,0 @@
-flash.c:78:6:resetearGrabadorFlash	1
-flash.c:90:9:estadoGrabadorFlash	1
-flash.c:102:6:desbloquearGrabadorFlash	2
-flash.c:121:9:bloquearGrabadorFlash	2
-flash.c:137:9:escribirGrabadorFlash	3
-flash.c:157:9:flushGrabadorFlash	2
-flash.c:191:10:sectorParaConfigGrabadorFlash	13
-flash.c:275:9:escribirWordGrabadorFlash	5

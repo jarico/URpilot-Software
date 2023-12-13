@@ -1,5 +1,0 @@
-../Core/Drivers/usb.c:71:8:punteroUSB	4	static
-../Core/Drivers/usb.c:83:6:iniciarUSB	16	static
-../Core/Drivers/usb.c:109:6:usbAbierto	4	static
-../Core/Drivers/usb.c:121:6:usbConfigurado	4	static
-../Core/Drivers/usb.c:133:6:usbConectado	4	static
