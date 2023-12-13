@@ -51,24 +51,25 @@
 /***************************************************************************************
 ** AREA DE DECLARACION DE VARIABLES                                                   **
 ****************************************************************************************/
-static pid_t pidVelAngMM[3];
-static pid_t pidActitudMM[3];
-static controladorGenerico_t modeloActitud[3];
-static controladorGenerico_t modeloVelAng[3];
-static controladorGenerico_t controladorFF[3];
-static float uPIDMM[4];
-static float uActPID[3];
-static float uFF[3];
-static float uTotal[3];
-static float rActitudMM[3];
-static float rVelAngMM[3];
-static float rModVelAng[3];
-static uint32_t tiempoAntVelAng;
-static uint32_t tiempoAntAct;
+static pid_t pidVelAng_MM[3];
+static pid_t pidActitud_MM[3];
+static controladorGenerico_t modeloActitud_MM[3];
+static controladorGenerico_t modeloVelAng_MM[3];
+static controladorGenerico_t controladorFF_MM[3];
+static float uPID_MM[4];
+static float uActPID_MM[3];
+static float uFF_MM[3];
+static float uTotal_MM[3];
+static float rActitud_MM[3];
+static float rVelAng_MM[3];
+static float rModVelAng_MM[3];
+static uint32_t tiempoAntVelAng_MM;
+static uint32_t tiempoAntAct_MM;
 
-float refMM[3];
-float eulerMM[3];
-float velAngularMM[3];
+// Eliminamos temporalmente las variables creadas para la trnsmisión de datos
+//float refMM[3];
+//float eulerMM[3];
+//float velAngularMM[3];
 
 /***************************************************************************************
 ** AREA DE PROTOTIPOS DE FUNCION                                                      **
@@ -89,28 +90,29 @@ void iniciarControladoresMM(void)
 {
 
 	// PIDs para la velocidad angular
-	iniciarPID(&pidVelAngMM[0],  0.000425, 0.0005, 0.00002,  0.0, 0.5, 1);
-	iniciarPID(&pidVelAngMM[1],  0.00119,  0.0014, 0.000056, 0.0, 0.5, 1);
+	iniciarPID(&pidVelAng_MM[0],  0.000425, 0.0005, 0.00002,  0.0, 0.5, 1);
+	iniciarPID(&pidVelAng_MM[1],  0.00119,  0.0014, 0.000056, 0.0, 0.5, 1);
 
 	// PIDs para la actitud
-	iniciarPID(&pidActitudMM[0], 10, 20, 0.0, 0.0, 2000, 2000);
-	iniciarPID(&pidActitudMM[1], 4, 0.0, 0.0, 0.0, 2000, 2000);
+	iniciarPID(&pidActitud_MM[0], 10, 20, 0.0, 0.0, 2000, 2000);
+	iniciarPID(&pidActitud_MM[1], 4, 0.0, 0.0, 0.0, 2000, 2000);
 
+    // Modelo unitario para pruebas
     float denC[1] = {1.0};
     float numC[1] = {1.0};
     int8_t n = sizeof(numC)/sizeof(float);
 
 	// Modelos para la actitud
-	iniciarControladorGenerico(&modeloActitud[0], numC, denC, n, 1.0, 100);
-	iniciarControladorGenerico(&modeloActitud[1], numC, denC, n, 1.0, 100);
+	iniciarControladorGenerico(&modeloActitud_MM[0], numC, denC, n, 1.0, 100);
+	iniciarControladorGenerico(&modeloActitud_MM[1], numC, denC, n, 1.0, 100);
 
 	// Modelos para la velocidad angular
-	iniciarControladorGenerico(&modeloVelAng[0], numC, denC, n, 1.0, 100);
-	iniciarControladorGenerico(&modeloVelAng[1], numC, denC, n, 1.0, 100);
+	iniciarControladorGenerico(&modeloVelAng_MM[0], numC, denC, n, 1.0, 100);
+	iniciarControladorGenerico(&modeloVelAng_MM[1], numC, denC, n, 1.0, 100);
 
 	// Controladores feedfordward
-	iniciarControladorGenerico(&controladorFF[0], numC, denC, n, 1.0, 100);
-	iniciarControladorGenerico(&controladorFF[1], numC, denC, n, 1.0, 100);
+	iniciarControladorGenerico(&controladorFF_MM[0], numC, denC, n, 1.0, 100);
+	iniciarControladorGenerico(&controladorFF_MM[1], numC, denC, n, 1.0, 100);
 
 }
 
@@ -123,28 +125,29 @@ void iniciarControladoresMM(void)
 ****************************************************************************************/
 CODIGO_RAPIDO void actualizarControlVelAngularMM(void)
 {
-    float velAngular[3], acelAngular[3];
-    uint32_t tiempoAct = micros();
-    float dt = (tiempoAct - tiempoAntVelAng) / 1000000.0;
-    tiempoAntVelAng = tiempoAct;
+    float velAngular_MM[3], acelAngular_MM[3], ref_MM[3];
+    uint32_t tiempoAct_MM = micros();
+    float dt = (tiempoAct_MM - tiempoAntVelAng_MM) / 1000000.0;
+    tiempoAntVelAng_MM = tiempoAct_MM;
 
-    giroIMU(velAngular);
-    acelAngularAHRS(acelAngular);
+    refAngulosRC(ref_MM);
+    giroIMU(velAngular_MM);
+    acelAngularAHRS(acelAngular_MM);
 
-    uPIDMM[0] = actualizarPID(&pidVelAngMM[0], rVelAngMM[0], velAngular[0], acelAngular[0], dt, !ordenPararMotores);
-    uPIDMM[1] = actualizarPID(&pidVelAngMM[1], rVelAngMM[1], velAngular[1], acelAngular[1], dt, !ordenPararMotores);
+    uPID_MM[0] = actualizarPID(&pidVelAng_MM[0], rVelAng_MM[0], velAngular_MM[0], acelAngular_MM[0], dt, !ordenPararMotores);
+    uPID_MM[1] = actualizarPID(&pidVelAng_MM[1], rVelAng_MM[1], velAngular_MM[1], acelAngular_MM[1], dt, !ordenPararMotores);
 
-    uFF[0]  = actualizarControladorGenerico(&controladorFF[0], refMM[0]);
-    uFF[1]  = actualizarControladorGenerico(&controladorFF[1], refMM[1]);
+    uFF_MM[0]  = actualizarControladorGenerico(&controladorFF_MM[0], ref_MM[0]);
+    uFF_MM[1]  = actualizarControladorGenerico(&controladorFF_MM[1], ref_MM[1]);
 
-    uTotal[0] = uFF[0] + uPIDMM[0];
-    uTotal[1] = uFF[1] + uPIDMM[1];
+    uTotal_MM[0] = uFF_MM[0] + uPID_MM[0];
+    uTotal_MM[1] = uFF_MM[1] + uPID_MM[1];
 
     if (ordenPararMotores) {
-        resetearIntegralPID(&pidVelAngMM[0]);
-        resetearIntegralPID(&pidVelAngMM[1]);
-        resetearControladorGenerico(&controladorFF[0]);
-        resetearControladorGenerico(&controladorFF[1]);
+        resetearIntegralPID(&pidVelAng_MM[0]);
+        resetearIntegralPID(&pidVelAng_MM[1]);
+        resetearControladorGenerico(&controladorFF_MM[0]);
+        resetearControladorGenerico(&controladorFF_MM[1]);
     }
 }
 
@@ -161,31 +164,34 @@ CODIGO_RAPIDO void actualizarControlVelAngularMM(void)
 ****************************************************************************************/
 void actualizarControlActitudMM(void)
 {
-    uint32_t tiempoAct = micros();
-    float dt = (tiempoAct - tiempoAntAct) / 1000000.0;
-    tiempoAntAct = tiempoAct;
+    float velAngular_MM[3], euler_MM[3], ref_MM[3];
+    uint32_t tiempoAct_MM = micros();
+    float dt = (tiempoAct_MM - tiempoAntAct_MM) / 1000000.0;
+    tiempoAntAct_MM = tiempoAct_MM;
 
+    refAngulosRC(ref_MM);
+    giroIMU(velAngular_MM);
+    actitudAHRS(euler_MM);
 
-    refAngulosRC(refMM);
-    giroIMU(velAngularMM);
-    actitudAHRS(eulerMM);
+    rActitud_MM[0] = actualizarControladorGenerico(&modeloActitud_MM[0], ref_MM[0]);
+    rActitud_MM[1] = actualizarControladorGenerico(&modeloActitud_MM[1], ref_MM[1]);
 
-    rActitudMM[0] = actualizarControladorGenerico(&modeloActitud[0], refMM[0]);
-    rActitudMM[1] = actualizarControladorGenerico(&modeloActitud[1], refMM[1]);
+    uActPID_MM[0] = actualizarPID(&pidActitud_MM[0], rActitud_MM[0], euler_MM[0], velAngular_MM[0], dt, !ordenPararMotores);
+    uActPID_MM[1] = actualizarPID(&pidActitud_MM[1], rActitud_MM[1], euler_MM[1], velAngular_MM[1], dt, !ordenPararMotores);
 
-    uActPID[0] = actualizarPID(&pidActitudMM[0], rActitudMM[0], eulerMM[0], velAngularMM[0], dt, !ordenPararMotores);
-    uActPID[1] = actualizarPID(&pidActitudMM[1], rActitudMM[1], eulerMM[1], velAngularMM[1], dt, !ordenPararMotores);
+    rModVelAng_MM[0] = actualizarControladorGenerico(&modeloVelAng_MM[0], ref_MM[0]);
+    rModVelAng_MM[1] = actualizarControladorGenerico(&modeloVelAng_MM[1], ref_MM[1]);
 
-    rModVelAng[0] = actualizarControladorGenerico(&modeloVelAng[0], refMM[0]);
-    rModVelAng[1] = actualizarControladorGenerico(&modeloVelAng[1], refMM[1]);
-
-    rVelAngMM[0] = rModVelAng[0] + rActitudMM[0];
-    rVelAngMM[1] = rModVelAng[1] + rActitudMM[1];
+    rVelAng_MM[0] = rModVelAng_MM[0] + rActitud_MM[0];
+    rVelAng_MM[1] = rModVelAng_MM[1] + rActitud_MM[1];
 
     if (ordenPararMotores) {
-        resetearIntegralPID(&pidActitudMM[0]);
-        resetearIntegralPID(&pidActitudMM[1]);
-
+        resetearIntegralPID(&pidActitud_MM[0]);
+        resetearIntegralPID(&pidActitud_MM[1]);
+        resetearControladorGenerico(&modeloActitud_MM[0]);
+        resetearControladorGenerico(&modeloActitud_MM[1]);
+        resetearControladorGenerico(&modeloVelAng_MM[0]);
+        resetearControladorGenerico(&modeloVelAng_MM[1]);
     }
 }
 
